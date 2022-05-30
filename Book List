@@ -1,0 +1,12 @@
+CREATE TABLE BookList (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT INTO BookList VALUES (1, "Harry Potter", 5);
+Insert into Booklist Values (2, "The Lottery Rose", 8);
+INSERT INTO BookList VALUES (3, "The Secret Garden", 9);
+
+--display the database ordered by name.
+SELECT * FROM list
+Order by name;
+
+-- what is the rating of each book?
+SELECT * from rating;
